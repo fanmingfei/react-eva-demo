@@ -1177,6 +1177,66 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@eva/eva.js@1.1.15", "@eva/eva.js@^1.1.15":
+  version "1.1.15"
+  resolved "https://registry.npmmirror.com/@eva/eva.js/download/@eva/eva.js-1.1.15.tgz#ad7c05f269997007f24fef8bf9ef19c4fc5990b7"
+  integrity sha1-rXwF8mmZcAfyT++L+e8ZxPxZkLc=
+  dependencies:
+    "@eva/inspector-decorator" "^0.0.5"
+    eventemitter3 "^3.1.2"
+    lodash-es "^4.17.21"
+    mini-signals "^1.2.0"
+    parse-uri "^1.0.3"
+    resource-loader "^4.0.0-rc4"
+    sprite-timeline "^1.10.2"
+
+"@eva/inspector-decorator@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.npmmirror.com/@eva/inspector-decorator/download/@eva/inspector-decorator-0.0.5.tgz#da68206249a1501e9b5f043faf64319310137cbb"
+  integrity sha1-2mggYkmhUB6bXwQ/r2QxkxATfLs=
+
+"@eva/plugin-renderer-img@^1.1.15":
+  version "1.1.15"
+  resolved "https://registry.npmmirror.com/@eva/plugin-renderer-img/download/@eva/plugin-renderer-img-1.1.15.tgz#a9cb71b83e65931548cc0315a4a3ceb71f6f3611"
+  integrity sha1-qctxuD5lkxVIzAMVpKPOtx9vNhE=
+  dependencies:
+    "@eva/eva.js" "1.1.15"
+    "@eva/inspector-decorator" "^0.0.5"
+    "@eva/plugin-renderer" "1.1.15"
+    "@eva/renderer-adapter" "1.1.15"
+    pixi.js "^4.8.7"
+
+"@eva/plugin-renderer-text@^1.1.15":
+  version "1.1.15"
+  resolved "https://registry.npmmirror.com/@eva/plugin-renderer-text/download/@eva/plugin-renderer-text-1.1.15.tgz#68b21182fdd29b161bfea525b81fab8cad9e381a"
+  integrity sha1-aLIRgv3SmxYb/qUluB+rjK2eOBo=
+  dependencies:
+    "@eva/eva.js" "1.1.15"
+    "@eva/inspector-decorator" "^0.0.5"
+    "@eva/plugin-renderer" "1.1.15"
+    "@eva/renderer-adapter" "1.1.15"
+    pixi.js "^4.8.7"
+
+"@eva/plugin-renderer@1.1.15", "@eva/plugin-renderer@^1.1.15":
+  version "1.1.15"
+  resolved "https://registry.npmmirror.com/@eva/plugin-renderer/download/@eva/plugin-renderer-1.1.15.tgz#e7485980919ed99c1ba11f6b2433165a1e029402"
+  integrity sha1-50hZgJGe2ZwboR9rJDMWWh4ClAI=
+  dependencies:
+    "@eva/eva.js" "1.1.15"
+    "@eva/renderer-adapter" "1.1.15"
+    "@types/pixi.js" "^4.8.9"
+    eventemitter3 "^3.1.2"
+    lodash-es "^4.17.21"
+    pixi.js "^4.8.7"
+
+"@eva/renderer-adapter@1.1.15":
+  version "1.1.15"
+  resolved "https://registry.npmmirror.com/@eva/renderer-adapter/download/@eva/renderer-adapter-1.1.15.tgz#745c6d0131066f913efb796aa1eae88a2bed6c48"
+  integrity sha1-dFxtATEGb5E++3lqoeroiivtbEg=
+  dependencies:
+    "@types/pixi.js" "^4.8.9"
+    pixi.js "^4.8.9"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1782,6 +1842,11 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
+
+"@types/pixi.js@^4.8.9":
+  version "4.8.9"
+  resolved "https://registry.npmmirror.com/@types/pixi.js/download/@types/pixi.js-4.8.9.tgz#207d8719f655d84eaa28adcfb3c62e414450dc56"
+  integrity sha1-IH2HGfZV2E6qKK3Ps8YuQURQ3FY=
 
 "@types/prettier@^2.0.0":
   version "2.2.1"
@@ -2757,6 +2822,11 @@ bindings@^1.5.0:
   integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
   dependencies:
     file-uri-to-path "1.0.0"
+
+bit-twiddle@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.nlark.com/bit-twiddle/download/bit-twiddle-1.0.2.tgz#0c6c1fabe2b23d17173d9a61b7b7093eb9e1769e"
+  integrity sha1-DGwfq+KyPRcXPZpht7cJPrnhdp4=
 
 bluebird@^3.5.5:
   version "3.7.2"
@@ -4201,6 +4271,11 @@ duplexify@^3.4.2, duplexify@^3.6.0:
     readable-stream "^2.0.0"
     stream-shift "^1.0.0"
 
+earcut@^2.1.4:
+  version "2.2.3"
+  resolved "https://registry.nlark.com/earcut/download/earcut-2.2.3.tgz?cache=0&sync_timestamp=1625748354595&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fearcut%2Fdownload%2Fearcut-2.2.3.tgz#d44ced2ff5a18859568e327dd9c7d46b16f55cf4"
+  integrity sha1-1EztL/WhiFlWjjJ92cfUaxb1XPQ=
+
 ecc-jsbn@~0.1.1:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz#3a83a904e54353287874c564b7549386849a98c9"
@@ -4677,6 +4752,16 @@ etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
+
+eventemitter3@^2.0.0:
+  version "2.0.3"
+  resolved "https://registry.npm.taobao.org/eventemitter3/download/eventemitter3-2.0.3.tgz#b5e1079b59fb5e1ba2771c0a993be060a58c99ba"
+  integrity sha1-teEHm1n7XhuidxwKmTvgYKWMmbo=
+
+eventemitter3@^3.1.2:
+  version "3.1.2"
+  resolved "https://registry.npm.taobao.org/eventemitter3/download/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
+  integrity sha1-LT1I+cNGaY/Og6hdfWZOmFNd9uc=
 
 eventemitter3@^4.0.0:
   version "4.0.7"
@@ -6117,6 +6202,11 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
 
+ismobilejs@^0.5.1:
+  version "0.5.2"
+  resolved "https://registry.npm.taobao.org/ismobilejs/download/ismobilejs-0.5.2.tgz#e81bacf6187c532ad8348355f4fecd6e6adfdce1"
+  integrity sha1-6Bus9hh8UyrYNINV9P7Nbmrf3OE=
+
 isobject@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-2.1.0.tgz#f065561096a3f1da2ef46272f815c840d87e0c89"
@@ -6923,6 +7013,11 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash-es@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.npm.taobao.org/lodash-es/download/lodash-es-4.17.21.tgz?cache=0&sync_timestamp=1615984490031&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash-es%2Fdownload%2Flodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
+  integrity sha1-Q+YmxG5lkbd1C+srUBFzkMYJ4+4=
+
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
@@ -7183,6 +7278,11 @@ mini-css-extract-plugin@0.11.3:
     normalize-url "1.9.1"
     schema-utils "^1.0.0"
     webpack-sources "^1.1.0"
+
+mini-signals@^1.1.1, mini-signals@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.nlark.com/mini-signals/download/mini-signals-1.2.0.tgz#45b08013c5fae51a24aa1a935cd317c9ed721d74"
+  integrity sha1-RbCAE8X65RokqhqTXNMXye1yHXQ=
 
 minimalistic-assert@^1.0.0, minimalistic-assert@^1.0.1:
   version "1.0.1"
@@ -7860,6 +7960,11 @@ parse-json@^5.0.0:
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
 
+parse-uri@^1.0.0, parse-uri@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.nlark.com/parse-uri/download/parse-uri-1.0.3.tgz#f3c24a74907a4e357c1741e96ca9faadecfd6db5"
+  integrity sha1-88JKdJB6TjV8F0HpbKn6rez9bbU=
+
 parse5@5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/parse5/-/parse5-5.1.1.tgz#f68e4e5ba1852ac2cadc00f4555fff6c2abb6178"
@@ -7994,6 +8099,25 @@ pirates@^4.0.1:
   integrity sha512-WuNqLTbMI3tmfef2TKxlQmAiLHKtFhlsCZnPIpuv2Ow0RDVO8lfy1Opf4NUzlMXLjPl+Men7AuVdX6TA+s+uGA==
   dependencies:
     node-modules-regexp "^1.0.0"
+
+pixi-gl-core@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.npmmirror.com/pixi-gl-core/download/pixi-gl-core-1.1.4.tgz#8b4b5c433b31e419bc379dc565ce1b835a91b372"
+  integrity sha1-i0tcQzsx5Bm8N53FZc4bg1qRs3I=
+
+pixi.js@^4.8.7, pixi.js@^4.8.9:
+  version "4.8.9"
+  resolved "https://registry.npmmirror.com/pixi.js/download/pixi.js-4.8.9.tgz#36dc0de8907d9e64336436e237c6f7f7c0a362e1"
+  integrity sha1-NtwN6JB9nmQzZDbiN8b398CjYuE=
+  dependencies:
+    bit-twiddle "^1.0.2"
+    earcut "^2.1.4"
+    eventemitter3 "^2.0.0"
+    ismobilejs "^0.5.1"
+    object-assign "^4.0.1"
+    pixi-gl-core "^1.1.4"
+    remove-array-items "^1.0.0"
+    resource-loader "^2.2.3"
 
 pkg-dir@^2.0.0:
   version "2.0.0"
@@ -9028,6 +9152,15 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
 
+react-reconciler@^0.26.2:
+  version "0.26.2"
+  resolved "https://registry.npmmirror.com/react-reconciler/download/react-reconciler-0.26.2.tgz#bbad0e2d1309423f76cf3c3309ac6c96e05e9d91"
+  integrity sha1-u60OLRMJQj92zzwzCaxsluBenZE=
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    scheduler "^0.20.2"
+
 react-refresh@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
@@ -9280,6 +9413,11 @@ relateurl@^0.2.7:
   resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
   integrity sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
 
+remove-array-items@^1.0.0:
+  version "1.1.1"
+  resolved "https://registry.nlark.com/remove-array-items/download/remove-array-items-1.1.1.tgz#fd745ff73d0822e561ea910bf1b401fc7843e693"
+  integrity sha1-/XRf9z0IIuVh6pEL8bQB/HhD5pM=
+
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
@@ -9433,6 +9571,22 @@ resolve@^1.10.0, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.1
   dependencies:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
+
+resource-loader@^2.2.3:
+  version "2.2.4"
+  resolved "https://registry.nlark.com/resource-loader/download/resource-loader-2.2.4.tgz#9bf43dba59475d56be29c796399211ce0e96fd2d"
+  integrity sha1-m/Q9ullHXVa+KceWOZIRzg6W/S0=
+  dependencies:
+    mini-signals "^1.1.1"
+    parse-uri "^1.0.0"
+
+resource-loader@^4.0.0-rc4:
+  version "4.0.0-rc4"
+  resolved "https://registry.nlark.com/resource-loader/download/resource-loader-4.0.0-rc4.tgz#4794fe9629f258964b53de651bd023046099c989"
+  integrity sha1-R5T+linyWJZLU95lG9AjBGCZyYk=
+  dependencies:
+    parse-uri "^1.0.0"
+    type-signals "^1.0.3"
 
 ret@~0.1.10:
   version "0.1.15"
@@ -10030,6 +10184,13 @@ sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
+
+sprite-timeline@^1.10.2:
+  version "1.10.2"
+  resolved "https://registry.npmmirror.com/sprite-timeline/download/sprite-timeline-1.10.2.tgz#20fb012b002623fe8ef5f3f16e5a5d1364c079d0"
+  integrity sha1-IPsBKwAmI/6O9fPxblpdE2TAedA=
+  dependencies:
+    babel-runtime "^6.26.0"
 
 sshpk@^1.7.0:
   version "1.16.1"
@@ -10668,6 +10829,11 @@ type-is@~1.6.17, type-is@~1.6.18:
   dependencies:
     media-typer "0.3.0"
     mime-types "~2.1.24"
+
+type-signals@^1.0.3:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/type-signals/download/type-signals-1.1.0.tgz#c3b756a64c794f8c2750c981b36c1e6e1014124d"
+  integrity sha1-w7dWpkx5T4wnUMmBs2webhAUEk0=
 
 type@^1.0.1:
   version "1.2.0"
